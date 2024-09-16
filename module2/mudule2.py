@@ -28,3 +28,6 @@ print("DU ÄR cirka", weeks * 52, "veckor gammal")
 
 kg = float(input("skriv kg:"))
 print(kg, "kg är", kg * 2.20462262, "lbs")
+
+dice = int(input("hur många tärningar? "))
+
