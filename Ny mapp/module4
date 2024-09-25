@@ -1,0 +1,16 @@
+import os
+os.system('cls')
+
+# while True:
+#     letter = input("skriv en bokstav a-z:")
+#     if letter.lower() == "q":
+#         break
+#     else: 
+#        print(letter)
+
+
+number = str(input("vill du ha en lista 1-10?: "))
+
+while number < 11:
+print(number)
+number += 1
