@@ -1,16 +1,47 @@
 import os
 os.system('cls')
 
-# while True:
-#     letter = input("skriv en bokstav a-z:")
-#     if letter.lower() == "q":
-#         break
-#     else: 
-#        print(letter)
+while True:
+     letter = input("skriv en bokstav a-z:")
+     if letter.lower() == "q":
+         break
+     else: 
+        print(letter)
 
 
-number = str(input("vill du ha en lista 1-10?: "))
+number = int(input("skriv 1 om du vill ha en lista 1-10?: "))
 
 while number < 11:
-print(number)
-number += 1
+    print(number)
+    number += 1
+
+
+gånger = str(input("skriv nåt för att kopiera det 10 gånger:"))
+
+for x in range(10):
+    print(gånger)
+   
+    if gånger == "gababriel , gapaprika":
+        break
+
+gånger = str(input("skriv nåt för att kopiera det 20 gånger:"))
+
+for x in range(20):
+    print(gånger)
+   
+    if gånger == "gababriel , gapaprika":
+        break
+
+
+
+number = 1+int(input("skriv ett tal som datorn kommer räkna till:"))
+ 
+start = 1
+
+while True:
+    start < number
+    print(start)
+    start += 1
+    if start == number:
+        break
+
